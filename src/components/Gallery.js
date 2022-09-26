@@ -1,3 +1,5 @@
+import { useContext } from 'react'
+import { DataContext } from '../context/DataContext.js'
 import GalleryItem from './GalleryItem'
 
 const Gallery = (props) => {
