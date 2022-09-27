@@ -10,12 +10,6 @@ import Spinner from './components/Spinner'
 import { DataContext } from './context/DataContext.js'
 import {SearchContext} from './context/SearchContext'
 
-function App(){
-    let [search, setSearch] = useState('')
-    let [message, setMessage] = useState('Search for Music!')
-    let [data, setData] = useState([])
-    let searchInput = useRef('')
-
 function App() {
     let [searchTerm, setSearchTerm] = useState('')
     let [message, setMessage] = useState('Search for Music!')
